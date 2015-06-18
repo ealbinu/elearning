@@ -1,0 +1,56 @@
+include _mixins.jade
+
+doctype html
+html(lang="es")
+	head
+		+head
+		
+	body
+		.container
+			.row
+				
+				
+				.col-md-4.col-md-push-2
+					
+					
+					
+					.panel.panel-primary
+						.panel-heading Inicia sesión
+						.panel-body
+							form
+								.form-group
+									label(for="usuario") Usuario
+									input(type="email").form-control#usuario
+								.form-group
+									label(for="password") Contraseña
+									input(type="password").form-control#password
+								button(type="submit").btn.btn-primary Ingresar
+						.panel-footer
+							a(href="#") Olvidé mi contraseña
+								
+								
+								
+				.col-md-4.col-md-push-2
+					.panel.panel-success
+						.panel-heading Registrate
+						.panel-body
+							form
+								.form-group
+									label(for="registro_nombre") Nombre
+									input(type="text").form-control#registro_nombre
+								.form-group
+									label(for="registro_usuario") Usuario / Correo
+									input(type="email").form-control#registro_usuario
+								.form-group
+									label(for="registro_password") Contraseña
+									input(type="password").form-control#registro_password
+								.form-group
+									label(for="registro_password2") Confirmar contraseña
+									input(type="password").form-control#registro_password2
+								button(type="submit").btn.btn-success Registrar
+											
+					
+					
+					
+					
+					

@@ -1,0 +1,27 @@
+mixin head
+  meta(charset="utf-8")
+  title Plataforma de e-learning
+  meta(name="description", content="Página de e-learning")
+  meta(name="viewport", content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no")
+  link(rel="stylesheet", href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css")
+  link(rel="stylesheet", href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css")
+  link(rel="stylesheet", href="_/css/utilidades.css")
+  script(src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js")
+  script(src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js")
+
+
+mixin navegacion
+  nav.navbar.navbar-default.navbar-fixed-top
+    .container
+      .navbar-header
+        a(href="#").navbar-brand Plataforma de Aprendizaje
+      ul.nav.navbar-nav
+        li: a(href="cursos.html") Cursos
+        li: a(href="progreso.html") Progreso
+      .navbar-right
+        p.navbar-text Usuario invitado
+        a(href="#").btn.btn-danger.navbar-btn Salir 
+        
+        
+        
+               

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8"/>
+    <title>Plataforma de e-learning</title>
+    <meta name="description" content="Página de e-learning"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="_/css/utilidades.css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header"><a href="#" class="navbar-brand">Plataforma de Aprendizaje</a></div>
+        <ul class="nav navbar-nav">
+          <li><a href="cursos.html">Cursos</a></li>
+          <li><a href="progeso.html">Progreso</a></li>
+        </ul>
+        <div class="navbar-right">
+          <p class="navbar-text">Usuario invitado</p><a href="#" class="btn btn-danger navbar-btn">Salir </a>
+        </div>
+      </div>
+    </nav>
+    <div class="container">
+      <div class="row mt60">
+        <div class="panel panel-default">
+          <div class="panel-heading">Curso de muestra 1</div>
+          <div class="panel-body">
+            <div role="tabpanel">
+              <ul role="tablist" class="nav nav-tabs">
+                <li class="active"><a href="#general" aria-control="general" role="tab" data-toggle="tab">General </a></li>
+                <li><a href="#descripcion" aria-control="descripcion" role="tab" data-toggle="tab">Descripción </a></li>
+                <li><a href="#requisitos" aria-control="requisitos" role="tab" data-toggle="tab">Requisitos</a></li>
+                <li><a href="#comentarios" aria-control="comentarios" role="tab" data-toggle="tab">Comentarios </a></li>
+              </ul>
+              <div class="tab-content">
+                <div role="tabpanel" id="general" class="tab-pane active">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <h2>Objetivo</h2>
+                      <p>Este curso es para aprender a utilizar Bootstrap</p>
+                      <h2>Docente</h2>
+                      <p><a href="http://twitter.com">Rafael Mauleón</a></p>
+                      <h2>Costo</h2>
+                      <p>$2'500.00 MX</p>
+                    </div>
+                    <div class="col-md-6"><img src="http://lorempixel.com/300/300/" class="img-responsive img-thumbnail"></div>
+                  </div>
+                </div>
+                <div role="tabpanel" id="descripcion" class="tab-pane">
+                  <p>fecha, duracion, plan</p>
+                </div>
+                <div role="tabpanel" id="requisitos" class="tab-pane">
+                  <p>conocimientos, software</p>
+                </div>
+                <div role="tabpanel" id="comentarios" class="tab-pane">
+                  <p>comentarios</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="panel-footer text-right"><a href="#" class="btn btn-primary"><i class="glyphicon glyphicon-arrow-right"></i>Iniciar curso</a> <a href="#" class="btn btn-success disabled"><i class="glyphicon glyphicon-pencil"></i> Evaluar conocimientos</a></div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

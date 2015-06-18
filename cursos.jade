@@ -1,0 +1,62 @@
+include _mixins.jade
+doctype html
+html(lang="es")
+  head
+    +head
+
+  body
+    +navegacion
+
+    .container
+      .row.mt60
+        
+        .panel.panel-default
+          .panel-heading Curso de muestra 1
+          .panel-body
+            div(role="tabpanel")
+              ul.nav.nav-tabs(role="tablist")
+                li.active
+                  a(href="#general", aria-control="general", role="tab", data-toggle="tab") General 
+                li
+                  a(href="#descripcion", aria-control="descripcion", role="tab", data-toggle="tab") Descripción 
+                li
+                  a(href="#requisitos", aria-control="requisitos", role="tab", data-toggle="tab") Requisitos
+                li
+                  a(href="#comentarios", aria-control="comentarios", role="tab", data-toggle="tab") Comentarios 
+              
+              .tab-content
+                div.tab-pane.active(role="tabpanel")#general
+                  .row
+                    .col-md-6
+                      h2 Objetivo
+                      p Este curso es para aprender a utilizar Bootstrap
+                      h2 Docente
+                      p: a(href="http://twitter.com") Rafael Mauleón
+                      h2 Costo
+                      p $2'500.00 MX
+                    .col-md-6
+                      img(src="http://lorempixel.com/300/300/").img-responsive.img-thumbnail  
+                  
+                div.tab-pane(role="tabpanel")#descripcion
+                  p fecha, duracion, plan
+                div.tab-pane(role="tabpanel")#requisitos
+                  p conocimientos, software
+                div.tab-pane(role="tabpanel")#comentarios
+                  p comentarios
+          .panel-footer.text-right
+              a(href="#").btn.btn-primary
+                i.glyphicon.glyphicon-arrow-right
+                | Iniciar curso
+              |  
+              a(href="#").btn.btn-success.disabled
+                i.glyphicon.glyphicon-pencil
+                |  Evaluar conocimientos
+              
+              
+              
+              
+              
+              
+              
+              
+              

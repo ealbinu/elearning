@@ -1,0 +1,26 @@
+include _mixins.jade
+doctype html
+html(lang="es")
+  head
+    +head
+
+  body
+    +navegacion
+    .container
+      .row.mt60
+        .col-md-8
+          h2 Tu progreso
+          p Hasta el momento has realizado X cursos, te invitamos a terminar de cursar los otros materiales para completar tu conocimiento sobre el tema del proyecto integrador.
+          
+      .row.mt20
+        .col-md-12
+          .progress
+            .progress-bar(role="progressbar", aria-valuenow="30", aria-valuemin="0", aria-valuemax="100", style="width:30%;")
+              span 30% Completado
+              
+              
+              
+              
+              
+              
+              
