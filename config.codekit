@@ -2,6 +2,178 @@
 "CodeKitInfo": "This is a CodeKit 2.x project configuration file. It is designed to sync project settings across multiple machines. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. If you do so, you will likely cause CodeKit to crash. This file is not useful unless accompanied by the project that created it in CodeKit 2. This file is not backwards-compatible with CodeKit 1.x. For more information, see: http:\/\/incident57.com\/codekit",
 "creatorBuild": "19033",
 "files": {
+	"\/_\/css\/images\/ui-bg_diagonals-thick_18_b81900_40x40.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 418,
+		"inputAbbreviatedPath": "\/_\/css\/images\/ui-bg_diagonals-thick_18_b81900_40x40.png",
+		"outputAbbreviatedPath": "\/_\/css\/images\/ui-bg_diagonals-thick_18_b81900_40x40.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_\/css\/images\/ui-bg_diagonals-thick_20_666666_40x40.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 312,
+		"inputAbbreviatedPath": "\/_\/css\/images\/ui-bg_diagonals-thick_20_666666_40x40.png",
+		"outputAbbreviatedPath": "\/_\/css\/images\/ui-bg_diagonals-thick_20_666666_40x40.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_\/css\/images\/ui-bg_flat_10_000000_40x100.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 205,
+		"inputAbbreviatedPath": "\/_\/css\/images\/ui-bg_flat_10_000000_40x100.png",
+		"outputAbbreviatedPath": "\/_\/css\/images\/ui-bg_flat_10_000000_40x100.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_\/css\/images\/ui-bg_glass_100_f6f6f6_1x400.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 262,
+		"inputAbbreviatedPath": "\/_\/css\/images\/ui-bg_glass_100_f6f6f6_1x400.png",
+		"outputAbbreviatedPath": "\/_\/css\/images\/ui-bg_glass_100_f6f6f6_1x400.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_\/css\/images\/ui-bg_glass_100_fdf5ce_1x400.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 348,
+		"inputAbbreviatedPath": "\/_\/css\/images\/ui-bg_glass_100_fdf5ce_1x400.png",
+		"outputAbbreviatedPath": "\/_\/css\/images\/ui-bg_glass_100_fdf5ce_1x400.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_\/css\/images\/ui-bg_glass_65_ffffff_1x400.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 207,
+		"inputAbbreviatedPath": "\/_\/css\/images\/ui-bg_glass_65_ffffff_1x400.png",
+		"outputAbbreviatedPath": "\/_\/css\/images\/ui-bg_glass_65_ffffff_1x400.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_\/css\/images\/ui-bg_gloss-wave_35_f6a828_500x100.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5815,
+		"inputAbbreviatedPath": "\/_\/css\/images\/ui-bg_gloss-wave_35_f6a828_500x100.png",
+		"outputAbbreviatedPath": "\/_\/css\/images\/ui-bg_gloss-wave_35_f6a828_500x100.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_\/css\/images\/ui-bg_highlight-soft_100_eeeeee_1x100.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 278,
+		"inputAbbreviatedPath": "\/_\/css\/images\/ui-bg_highlight-soft_100_eeeeee_1x100.png",
+		"outputAbbreviatedPath": "\/_\/css\/images\/ui-bg_highlight-soft_100_eeeeee_1x100.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_\/css\/images\/ui-bg_highlight-soft_75_ffe45c_1x100.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 328,
+		"inputAbbreviatedPath": "\/_\/css\/images\/ui-bg_highlight-soft_75_ffe45c_1x100.png",
+		"outputAbbreviatedPath": "\/_\/css\/images\/ui-bg_highlight-soft_75_ffe45c_1x100.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_\/css\/images\/ui-icons_222222_256x240.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6922,
+		"inputAbbreviatedPath": "\/_\/css\/images\/ui-icons_222222_256x240.png",
+		"outputAbbreviatedPath": "\/_\/css\/images\/ui-icons_222222_256x240.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_\/css\/images\/ui-icons_228ef1_256x240.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4549,
+		"inputAbbreviatedPath": "\/_\/css\/images\/ui-icons_228ef1_256x240.png",
+		"outputAbbreviatedPath": "\/_\/css\/images\/ui-icons_228ef1_256x240.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_\/css\/images\/ui-icons_ef8c08_256x240.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4549,
+		"inputAbbreviatedPath": "\/_\/css\/images\/ui-icons_ef8c08_256x240.png",
+		"outputAbbreviatedPath": "\/_\/css\/images\/ui-icons_ef8c08_256x240.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_\/css\/images\/ui-icons_ffd27a_256x240.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4549,
+		"inputAbbreviatedPath": "\/_\/css\/images\/ui-icons_ffd27a_256x240.png",
+		"outputAbbreviatedPath": "\/_\/css\/images\/ui-icons_ffd27a_256x240.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_\/css\/images\/ui-icons_ffffff_256x240.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6299,
+		"inputAbbreviatedPath": "\/_\/css\/images\/ui-icons_ffffff_256x240.png",
+		"outputAbbreviatedPath": "\/_\/css\/images\/ui-icons_ffffff_256x240.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_\/css\/jquery-ui.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_\/css\/jquery-ui.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/_\/css\/jquery-ui.theme.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_\/css\/jquery-ui.theme.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/_\/css\/utilidades.css": {
 		"fileType": 16,
 		"ignore": 0,
@@ -11,12 +183,12 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/_\/js\/min\/script-min.js": {
+	"\/_\/js\/jquery-ui.js": {
 		"fileType": 64,
-		"ignore": 1,
+		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_\/js\/min\/script-min.js",
-		"outputAbbreviatedPath": "\/_\/js\/min\/min\/script-min-min.js",
+		"inputAbbreviatedPath": "\/_\/js\/jquery-ui.js",
+		"outputAbbreviatedPath": "\/_\/js\/min\/jquery-ui-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
@@ -52,6 +224,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0
+		},
+	"\/curso1.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/curso1.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
 		},
 	"\/curso1.jade": {
 		"compileDebug": 1,
@@ -100,6 +281,28 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/index.jade",
 		"outputAbbreviatedPath": "\/index.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0
+		},
+	"\/materiales\/_mixins.jade": {
+		"compileDebug": 1,
+		"fileType": 512,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/materiales\/_mixins.jade",
+		"outputAbbreviatedPath": "\/materiales\/_mixins.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0
+		},
+	"\/materiales\/curso1_conocimiento.jade": {
+		"compileDebug": 1,
+		"fileType": 512,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/materiales\/curso1_conocimiento.jade",
+		"outputAbbreviatedPath": "\/materiales\/curso1_conocimiento.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0
