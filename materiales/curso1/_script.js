@@ -7,8 +7,18 @@ $(function(){
   //
   $('#drop').droppable({
     drop: function(event, ui){
+      //Obtenemos el valor data del objeto arrastrable
       var objeto = ui.draggable.attr('data');
-      alert(objeto);
+      //checamos el valor data del objeto con una palabra
+      if(objeto=='ok'){
+        //Si es OK añadimos una alerta
+        $('#drop').after('<div class="alert alert-success">CORRECTO</div>');
+      } else {
+        //Si no es ok otra alerta
+        $('#drop').after('<div class="alert alert-danger">INCORRECTO</div>');
+      }
+      //Luego de crear las alertas se aplica un fadeout para borrarlas
+      $('.alert').fadeOut(1500);
     }
   });
 
