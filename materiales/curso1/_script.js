@@ -2,8 +2,12 @@ $(function(){
 
   $('#modalInicio').modal('show');
 
+  //Ocultar ejercicio2
+  $('#ejercicio2').hide();
+
   // ARRASTRABLE
-  $('.drag').draggable();
+  $('.drag[data="error"]').draggable({revert:"valid"});
+  $('.drag[data="ok"]').draggable({revert:"invalid"});
   //
   $('#drop').droppable({
     drop: function(event, ui){
@@ -13,6 +17,8 @@ $(function(){
       if(objeto=='ok'){
         //Si es OK añadimos una alerta
         $('#drop').after('<div class="alert alert-success">CORRECTO</div>');
+        //Mostrar el ejercicio 2
+        $('#ejercicio2').slideDown(600);
       } else {
         //Si no es ok otra alerta
         $('#drop').after('<div class="alert alert-danger">INCORRECTO</div>');

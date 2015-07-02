@@ -7,22 +7,30 @@ html(lang="es")
 		script(src="curso1/_script.js")
 		
 	body
-		.container
+		.container#ejercicio1
 			.row.mt20
 				.drag.btn.btn-default(data="error") Arrastrame
 				.drag.btn.btn-success(data="ok") Arrastrame
 				.drag.btn.btn-primary(data="error") Arrastrame
 			.row.mt20
 				#drop.jumbotron Deposita el botón verde
+		
+		.container#ejercicio2
+			.row.mt20
+				.drag.btn.btn-default(data="error") Arrastrame
+				.drag.btn.btn-success(data="error") Arrastrame
+				.drag.btn.btn-primary(data="ok") Arrastrame
+			.row.mt20
+				#drop2.jumbotron Deposita el botón azul
 				
 				
 				
-				.modal.fade#modalInicio
-					.modal-dialog
-						.modal-content
-							.modal-header
-								.modal-title ¿Deseas iniciar el material?
-							.modal-body
-								p  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem dolores ipsa nam, sapiente ex non accusantium et doloribus est. Atque libero non dicta obcaecati adipisci, animi est, aliquam aut earum!
-							.modal-footer
-								button(type="submit" data-dismiss="modal").btn.btn-primary Iniciar material
+		.modal.fade#modalInicio
+			.modal-dialog
+				.modal-content
+					.modal-header
+						.modal-title ¿Deseas iniciar el material?
+					.modal-body
+						p  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem dolores ipsa nam, sapiente ex non accusantium et doloribus est. Atque libero non dicta obcaecati adipisci, animi est, aliquam aut earum!
+					.modal-footer
+						button(type="submit" data-dismiss="modal").btn.btn-primary Iniciar material
