@@ -191,19 +191,8 @@
 		"outputAbbreviatedPath": "\/_\/js\/min\/jquery-ui-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/_\/js\/min\/script-min.js": {
-		"fileType": 64,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_\/js\/min\/script-min.js",
-		"outputAbbreviatedPath": "\/_\/js\/min\/min\/script-min-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/_\/js\/script.js": {
 		"fileType": 64,
@@ -213,8 +202,8 @@
 		"outputAbbreviatedPath": "\/_\/js\/min\/script-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/_mixins.html": {
 		"fileType": 8192,
@@ -235,6 +224,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0
+		},
+	"\/curso1.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/curso1.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
 		},
 	"\/curso1.jade": {
 		"compileDebug": 1,
@@ -306,8 +304,8 @@
 		"outputAbbreviatedPath": "\/materiales\/curso1\/min\/_script-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/materiales\/curso1_conocimiento.jade": {
 		"compileDebug": 1,
@@ -526,8 +524,8 @@
 	"javascriptAutoOutputPathReplace2": "",
 	"javascriptAutoOutputPathStyle": 2,
 	"javascriptCreateSourceMap": 1,
-	"javascriptOutputStyle": 1,
-	"javascriptSyntaxCheckerStyle": 1,
+	"javascriptOutputStyle": 0,
+	"javascriptSyntaxCheckerStyle": 0,
 	"jsCheckerReservedNamesString": "",
 	"jsHintFlags2": {
 		"asi": {

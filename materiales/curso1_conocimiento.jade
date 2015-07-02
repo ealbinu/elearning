@@ -8,13 +8,21 @@ html(lang="es")
 		
 	body
 		.container
-			.row
+			.row.mt20
+				.drag.btn.btn-default(data="error") Arrastrame
+				.drag.btn.btn-success(data="ok") Arrastrame
+				.drag.btn.btn-primary(data="error") Arrastrame
+			.row.mt20
+				#drop.jumbotron Contenedor
+				
+				
 				
 				.modal.fade#modalInicio
 					.modal-dialog
 						.modal-content
 							.modal-header
 								.modal-title ¿Deseas iniciar el material?
-							
+							.modal-body
+								p  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem dolores ipsa nam, sapiente ex non accusantium et doloribus est. Atque libero non dicta obcaecati adipisci, animi est, aliquam aut earum!
 							.modal-footer
 								button(type="submit" data-dismiss="modal").btn.btn-primary Iniciar material
