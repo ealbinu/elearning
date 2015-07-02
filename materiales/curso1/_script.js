@@ -17,13 +17,17 @@ $(function(){
       if(objeto=='ok'){
         //Si es OK añadimos una alerta
         $(this).after('<div class="alert alert-success">CORRECTO</div>');
-
+        $(this).html('MUY BIEN, FELICIDADES.');
+        ui.draggable.draggable("destroy");
+        ui.draggable.siblings('.drag').draggable("destroy");
+        //¿QUÉ CONTENEDOR SE DEPOSITA?
         if($(this).attr('id')=="drop"){
           //Mostrar el ejercicio 2
           $('#ejercicio2').slideDown(600);
         } else if($(this).attr('id')=="drop2"){
-          alert('Terminaste el ejercicio!!');
+          $('#modalFinal').modal('show');
         }
+
       } else {
         //Si no es ok otra alerta
         $(this).after('<div class="alert alert-danger">INCORRECTO</div>');
