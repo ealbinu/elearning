@@ -338,6 +338,15 @@
 		"outputStyle": 0,
 		"syntaxCheckerStyle": 0
 		},
+	"\/materiales\/curso2_conocimiento.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/materiales\/curso2_conocimiento.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/materiales\/curso2_conocimiento.jade": {
 		"compileDebug": 1,
 		"fileType": 512,
@@ -345,6 +354,28 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/materiales\/curso2_conocimiento.jade",
 		"outputAbbreviatedPath": "\/materiales\/curso2_conocimiento.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0
+		},
+	"\/materiales\/curso3\/_script.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/materiales\/curso3\/_script.js",
+		"outputAbbreviatedPath": "\/materiales\/curso3\/min\/_script-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
+		},
+	"\/materiales\/curso3_conocimiento.jade": {
+		"compileDebug": 1,
+		"fileType": 512,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/materiales\/curso3_conocimiento.jade",
+		"outputAbbreviatedPath": "\/materiales\/curso3_conocimiento.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0
