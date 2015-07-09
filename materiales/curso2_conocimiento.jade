@@ -12,21 +12,18 @@ html(lang="es")
 				.col-md-2
 					p
 						| Correctas: 
-						span.label.label-primary 0
+						span.label.label-primary.correctas 0
 				.col-md-2
 					p
 						| Errores: 
-						span.label.label-danger 0
+						span.label.label-danger.errores 0
 					
 			.row.mt20.ejercicio
 					.col-md-3
 						button(data="punto").btn.btn-primary Click
 						button(data="punto").btn.btn-primary Click
 						button(data="punto").btn.btn-primary Click
-					.col-md-3
-						button(data="no").btn.btn-default Click
-						button(data="no").btn.btn-default Click
-						button(data="no").btn.btn-default Click
+					
 					.col-md-3
 						button(data="medio").btn.btn-success Click
 						button(data="medio").btn.btn-success Click
@@ -35,6 +32,10 @@ html(lang="es")
 						button(data="pierde").btn.btn-danger Click
 						button(data="pierde").btn.btn-danger Click
 						button(data="pierde").btn.btn-danger Click
+					.col-md-3
+						button(data="nada").btn.btn-default Click
+						button(data="nada").btn.btn-default Click
+						button(data="nada").btn.btn-default Click
 				
 		.modal.fade#modalInicio
 			.modal-dialog
