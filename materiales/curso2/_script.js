@@ -1,0 +1,7 @@
+$(function(){
+
+  $('#modalInicio').modal('show');
+
+  
+
+});
