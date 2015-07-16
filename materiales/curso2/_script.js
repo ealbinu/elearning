@@ -7,6 +7,11 @@ $(function(){
 
   $('#modalInicio').modal('show');
 
+  $('.botonImagen').click(function(){
+    $(this).hide();
+  });
+
+
   $('.ejercicio button').click(function(){
 
     contador = contador+1;
