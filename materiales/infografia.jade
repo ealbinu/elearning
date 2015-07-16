@@ -1,0 +1,48 @@
+include _mixins.jade
+
+doctype html
+html(lang="es")
+	head
+		+head
+		script(src="infografia/_script.js")
+		link(rel="stylesheet", href="infografia/estilo.css")
+	body
+		.container
+			.infografia
+				a(href="#").btn.btn-success.boton1 +
+				a(href="#").btn.btn-success.boton2 +
+				a(href="#").btn.btn-success.boton3 +
+				.panel.panel-default.texto1
+					.panel-body
+						.panel-heading Texto 1
+						.panel-body Contenido del texto
+				.panel.panel-primary.texto2
+					.panel-body
+						.panel-heading Texto 2
+						.panel-body Contenido del texto
+				.panel.panel-success.texto3
+					.panel-body
+						.panel-heading Texto 3
+						.panel-body Contenido del texto
+					
+				
+				
+		.modal.fade#modalInicio
+			.modal-dialog
+				.modal-content
+					.modal-header
+						.modal-title Infografía
+					.modal-body
+						p  Da click sobre las áreas de la infografía para que se muestre información.
+					.modal-footer
+						button(type="submit" data-dismiss="modal").btn.btn-primary Iniciar
+				
+		.modal.fade#modalFinal
+			.modal-dialog
+				.modal-content
+					.modal-header
+						.modal-title Felicidades acabaste el material de aprendizaje
+					.modal-body
+						p  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem dolores ipsa nam, sapiente ex non accusantium et doloribus est. Atque libero non dicta obcaecati adipisci, animi est, aliquam aut earum!
+					.modal-footer
+						button(type="submit" data-dismiss="modal").btn.btn-primary Finalizar
