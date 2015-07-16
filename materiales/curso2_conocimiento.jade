@@ -19,11 +19,17 @@ html(lang="es")
 						span.label.label-danger.errores 0
 					
 			.row.mt20.ejercicio
+				.container
+					.col-md-12
+						p Imagen de muestra. Al dar click se oculta. Revisar linea 10 de script.js
+						img(src="http://lorempixel.com/100/50", alt="").botonImagen
+						p - 
+						p - 
+				
 					.col-md-3
 						//Imagen
 						button(data="punto").btn.btn-primary 
 							img(src="http://lorempixel.com/100/50", alt="")
-						img(src="http://lorempixel.com/100/50", alt="").botonImagen
 						
 						button(data="punto").btn.btn-primary Click
 						button(data="punto").btn.btn-primary Click
@@ -40,7 +46,7 @@ html(lang="es")
 						button(data="nada").btn.btn-default Click
 						button(data="nada").btn.btn-default Click
 						button(data="nada").btn.btn-default Click
-				
+					
 		.modal.fade#modalInicio
 			.modal-dialog
 				.modal-content

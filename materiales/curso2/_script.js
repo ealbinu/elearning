@@ -7,6 +7,12 @@ $(function(){
 
   $('#modalInicio').modal('show');
 
+  //Click sobre Imagen
+  $('.ejercicio .botonImagen').click(function(){
+    $(this).hide();
+  });
+
+
   $('.ejercicio button').click(function(){
 
     contador = contador+1;
