@@ -480,16 +480,45 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/materiales\/memorama\/infografia.jpg": {
-		"fileType": 16384,
+	"\/materiales\/mezclar.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/materiales\/mezclar.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/materiales\/mezclar.jade": {
+		"compileDebug": 1,
+		"fileType": 512,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 31922,
-		"inputAbbreviatedPath": "\/materiales\/memorama\/infografia.jpg",
-		"outputAbbreviatedPath": "\/materiales\/memorama\/infografia.jpg",
+		"inputAbbreviatedPath": "\/materiales\/mezclar.jade",
+		"outputAbbreviatedPath": "\/materiales\/mezclar.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"outputStyle": 0
+		},
+	"\/materiales\/mezclar\/_script.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/materiales\/mezclar\/_script.js",
+		"outputAbbreviatedPath": "\/materiales\/mezclar\/min\/_script-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
+		},
+	"\/materiales\/mezclar\/estilo.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/materiales\/mezclar\/estilo.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
 		},
 	"\/materiales\/tarjetas.html": {
 		"fileType": 8192,

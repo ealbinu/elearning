@@ -1,0 +1,46 @@
+include _mixins.jade
+
+doctype html
+html(lang="es")
+	head
+		+head
+		script(src="mezclar/_script.js")
+		link(rel="stylesheet", href="mezclar/estilo.css")
+	body
+		.container.mt20
+			
+			.col-md-4
+				button.btn.btn-default.btn-lg.botonA
+					span.glyphicon.glyphicon-remove
+					|  Característica A
+				button.btn.btn-default.btn-lg.botonB
+					span.glyphicon.glyphicon-remove
+					|  Característica B
+				button.btn.btn-default.btn-lg.botonC
+					span.glyphicon.glyphicon-remove
+					|  Característica C
+						
+			.col-md-8
+				.resultado
+			
+			
+				
+		.modal.fade#modalInicio
+			.modal-dialog
+				.modal-content
+					.modal-header
+						.modal-title Tarjetas
+					.modal-body
+						p  Da click sobre la tarjeta para mostrar la información.
+					.modal-footer
+						button(type="submit" data-dismiss="modal").btn.btn-primary Iniciar
+				
+		.modal.fade#modalFinal
+			.modal-dialog
+				.modal-content
+					.modal-header
+						.modal-title Felicidades acabaste el material de aprendizaje
+					.modal-body
+						p  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem dolores ipsa nam, sapiente ex non accusantium et doloribus est. Atque libero non dicta obcaecati adipisci, animi est, aliquam aut earum!
+					.modal-footer
+						button(type="submit" data-dismiss="modal").btn.btn-primary Finalizar
