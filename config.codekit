@@ -440,6 +440,57 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/materiales\/memorama.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/materiales\/memorama.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/materiales\/memorama.jade": {
+		"compileDebug": 1,
+		"fileType": 512,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/materiales\/memorama.jade",
+		"outputAbbreviatedPath": "\/materiales\/memorama.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0
+		},
+	"\/materiales\/memorama\/_script.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/materiales\/memorama\/_script.js",
+		"outputAbbreviatedPath": "\/materiales\/memorama\/min\/_script-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
+		},
+	"\/materiales\/memorama\/estilo.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/materiales\/memorama\/estilo.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/materiales\/memorama\/infografia.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 31922,
+		"inputAbbreviatedPath": "\/materiales\/memorama\/infografia.jpg",
+		"outputAbbreviatedPath": "\/materiales\/memorama\/infografia.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/materiales\/tarjetas.html": {
 		"fileType": 8192,
 		"ignore": 1,
@@ -520,7 +571,7 @@
 "projectAttributes": {
 	"bowerAbbreviatedPath": "",
 	"displayValue": "elearning",
-	"displayValueWasSetByUser": 0,
+	"displayValueWasSetByUser": 1,
 	"iconImageName": "brackets_darkGray"
 	},
 "projectSettings": {

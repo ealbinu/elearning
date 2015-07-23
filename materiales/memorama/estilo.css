@@ -1,0 +1,21 @@
+.tarjeta{
+  color:#fff;
+  position: relative;
+  width: 140px;height: 140px;
+  margin: 0 auto;
+  overflow: hidden;
+  cursor: pointer;
+}
+.tarjeta .frente{
+  font-size: 6em;
+  position: absolute;
+  width: 100%;height: 140px;
+  background: #336699;
+  text-align: center;
+  display: none;
+}
+.tarjeta .atras{
+  width: 100%; height: 140px;
+  position: absolute;
+  
+}
