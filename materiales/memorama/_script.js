@@ -52,14 +52,13 @@ $(function(){
       }
     }
 
-
     if(contador==respuestas){
       $('#modalFinal').modal('show');
     }
 
-  });
+  }); //Termina .click
 
-});
+}); // Termina jQuery
 
 
 function girarTarjeta(_this){
