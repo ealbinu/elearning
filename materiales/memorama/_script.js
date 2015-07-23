@@ -1,4 +1,5 @@
-var correctas = 0;
+var contador = 0;
+var respuestas = 3;
 
 var tarjeta1;
 var tarjeta2;
@@ -36,6 +37,7 @@ $(function(){
         tarjeta2 = null;
         valor1 = "";
         valor2 = "";
+        contador = contador+1;
       } else {
         setTimeout(function(){
           //INCORRECTO
@@ -46,12 +48,14 @@ $(function(){
           tarjeta2 = null;
           valor1 = "";
           valor2 = "";
-        }, 500);
+        }, 1500);
       }
     }
 
 
-
+    if(contador==respuestas){
+      $('#modalFinal').modal('show');
+    }
 
   });
 
