@@ -14,7 +14,7 @@ $(function(){
   //Al dar click en la tarjeta
   $('.tarjeta').click(function(){
 
-
+    girarTarjeta( $(this) );
 
 
     //Obtener el valor de DATA
@@ -37,12 +37,16 @@ $(function(){
         valor1 = "";
         valor2 = "";
       } else {
-        //INCORRECTO
-        //Reset de variables de juego
-        tarjeta1 = null;
-        tarjeta2 = null;
-        valor1 = "";
-        valor2 = "";
+        setTimeout(function(){
+          //INCORRECTO
+          girarTarjeta( tarjeta1 );
+          girarTarjeta( tarjeta2 );
+          //Reset de variables de juego
+          tarjeta1 = null;
+          tarjeta2 = null;
+          valor1 = "";
+          valor2 = "";
+        }, 500);
       }
     }
 
@@ -55,13 +59,15 @@ $(function(){
 
 
 function girarTarjeta(_this){
-  //Animar el width hacia 0
-  _this.animate({width:0}, function(){
-    //Al terminar la animación ocultar/mostrar .frente
-    _this.children('.frente').toggle();
-    //Mostrar/ocultar .atras
-    _this.children('.atras').toggle();
-    //Animar el width hacia 140px
-    _this.animate({width:'140px'});
-  });
+
+    //Animar el width hacia 0
+    _this.animate({width:0}, function(){
+      //Al terminar la animación ocultar/mostrar .frente
+      _this.children('.frente').toggle();
+      //Mostrar/ocultar .atras
+      _this.children('.atras').toggle();
+      //Animar el width hacia 140px
+      _this.animate({width:'140px'});
+    });
+
 }
