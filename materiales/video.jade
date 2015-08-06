@@ -1,0 +1,38 @@
+include _mixins.jade
+
+doctype html
+html(lang="es")
+	head
+		+head
+		script(src="video/popcorn.js")
+		script(src="video/_script.js")
+		
+	body
+		.container
+			.row.mt20
+				.col-md-8.video#video
+				.col-md-4.resultado
+				
+					
+		.modal.fade#modalInicio
+			.modal-dialog
+				.modal-content
+					.modal-header
+						.modal-title ¿Deseas iniciar el material?
+					.modal-body
+						p  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem dolores ipsa nam, sapiente ex non accusantium et doloribus est. Atque libero non dicta obcaecati adipisci, animi est, aliquam aut earum!
+					.modal-footer
+						button(type="submit" data-dismiss="modal").btn.btn-primary Iniciar material
+				
+		.modal.fade#modalFinal
+			.modal-dialog
+				.modal-content
+					.modal-header
+						.modal-title Felicidades acabaste el material de aprendizaje
+					.modal-body
+							p Correctas: 
+								span.label.label-primary.correctas 0
+							p Errores: 
+								span.label.label-danger.errores 0
+					.modal-footer
+						button(type="submit" data-dismiss="modal").btn.btn-primary Finalizar
