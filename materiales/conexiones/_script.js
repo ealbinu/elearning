@@ -14,27 +14,20 @@ jsPlumb.bind("ready", function(){
     beforeDrop: function(params){
       var source = params.sourceId;
       var target = params.targetId;
-
       switch(source){
         case 'conector1':
-          if(target == 'conector2'){ alert('correcto'); return true; }
-
+          if(target =='conector2'){ correctas = correctas+1; final(); return true; }
           break;
         case 'conector2':
-          if(target=='conector1'){ alert('correcto'); return true; }
-
+          if(target=='conector1'){  correctas = correctas+1; final(); return true; }
           break;
         case 'conector3':
-          if(target=="conector4"){ alert('correcto'); return true; }
-
+          if(target=="conector4"){  correctas = correctas+1; final(); return true;}
           break;
         case 'connector4':
-          if(target=='conector3'){ alert('correcto'); return true; }
-
+          if(target=='conector3'){ correctas = correctas+1;final();  return true;}
           break;
       }
-
-
     }
   }
 
@@ -49,3 +42,11 @@ jsPlumb.bind("ready", function(){
       'conector4', {anchor:'Left'}, endOpciones);
 
 });
+
+
+
+function final(){
+  if(correctas == 2){
+    $('#modalFinal').modal('show');
+  }
+}
