@@ -12,9 +12,25 @@ jsPlumb.bind("ready", function(){
     isTarget:true,
     connectorStyle: { lineWidth:20, strokeStyle: '#fffd00' },
     beforeDrop: function(params){
-      alert('soltado!');
-      alert(params.sourceId);
-      alert(params.targetId);
+      var source = params.sourceId;
+      var target = params.targetId;
+
+      switch(source){
+        case 'conector1':
+          if(target == 'conector2'){ alert('correcto'); }
+          break;
+        case 'conector2':
+          if(target=='conector1'){ alert('correcto'); }
+          break;
+        case 'conector3':
+          if(target=="conector4"){ alert('correcto'); }
+          break;
+        case 'connector4':
+          if(target=='conector3'){ alert('correcto'); }
+          break;
+      }
+
+
     }
   }
 

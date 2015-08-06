@@ -21,11 +21,20 @@
     <div class="container mt20">
       <div class="row">
         <div class="col-xs-4">
-          <button id="conector1" class="btn btn-default">Conector 1</button>
+          <button id="conector1" data="conector2" class="btn btn-default">Conector 1</button>
         </div>
         <div class="col-xs-4"></div>
         <div class="col-xs-4">
-          <button id="conector2" class="btn btn-primary">Conector 2</button>
+          <button id="conector2" data="conector1" class="btn btn-primary">Conector 2</button>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-4">
+          <button id="conector3" data="conector4" class="btn btn-default">Conector 3</button>
+        </div>
+        <div class="col-xs-4"></div>
+        <div class="col-xs-4">
+          <button id="conector4" data="conector3" class="btn btn-primary">Conector 4</button>
         </div>
       </div>
     </div>
