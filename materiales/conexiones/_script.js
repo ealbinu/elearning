@@ -17,16 +17,20 @@ jsPlumb.bind("ready", function(){
 
       switch(source){
         case 'conector1':
-          if(target == 'conector2'){ alert('correcto'); }
+          if(target == 'conector2'){ alert('correcto'); return true; }
+
           break;
         case 'conector2':
-          if(target=='conector1'){ alert('correcto'); }
+          if(target=='conector1'){ alert('correcto'); return true; }
+
           break;
         case 'conector3':
-          if(target=="conector4"){ alert('correcto'); }
+          if(target=="conector4"){ alert('correcto'); return true; }
+
           break;
         case 'connector4':
-          if(target=='conector3'){ alert('correcto'); }
+          if(target=='conector3'){ alert('correcto'); return true; }
+
           break;
       }
 
@@ -38,5 +42,10 @@ jsPlumb.bind("ready", function(){
     'conector1', {anchor:'Right'}, endOpciones);
   var endPoint2 = jsPlumb.addEndpoint(
     'conector2', {anchor:'Left'}, endOpciones);
+
+    var endPoint3 = jsPlumb.addEndpoint(
+      'conector3', {anchor:'Right'}, endOpciones);
+    var endPoint4 = jsPlumb.addEndpoint(
+      'conector4', {anchor:'Left'}, endOpciones);
 
 });
