@@ -18,7 +18,11 @@ $('#formularioRegistro').submit(function(e){
     $.ajax({
       url: api+col+key,
       type: "POST",
-      data : JSON.stringify( $(this).serializeArray() ),
+      data : JSON.stringify({
+        Nombre: $('#registro_nombre').val(),
+        Usuario: $('#registro_usuario').val(),
+        Pass: $('#registro_password').val()
+      }),
       contentType : "application/json"
     }).done(function(msg){
       console.log(msg);
