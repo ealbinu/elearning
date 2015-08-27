@@ -34,19 +34,19 @@ html(lang="es")
 					.panel.panel-success
 						.panel-heading Registrate
 						.panel-body
-							form
+							form(action="#")#formularioRegistro
 								.form-group
 									label(for="registro_nombre") Nombre
-									input(type="text").form-control#registro_nombre
+									input(type="text", name="Nombre").form-control#registro_nombre
 								.form-group
 									label(for="registro_usuario") Usuario / Correo
-									input(type="email").form-control#registro_usuario
+									input(type="email", name="Email").form-control#registro_usuario
 								.form-group
 									label(for="registro_password") Contraseña
-									input(type="password").form-control#registro_password
+									input(type="password", name="Pass").form-control#registro_password
 								.form-group
 									label(for="registro_password2") Confirmar contraseña
-									input(type="password").form-control#registro_password2
+									input(type="password", name="Pass").form-control#registro_password2
 								button(type="submit").btn.btn-success Registrar
 											
 					

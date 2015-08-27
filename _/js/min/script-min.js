@@ -27,3 +27,5 @@ $('#formularioRegistro').submit(function(e){
 }); //Cierra submit
 
 }); //Cierra jQuery
+
+

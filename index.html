@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="_/css/jquery-ui.css"/>
     <link rel="stylesheet" href="_/css/jquery-ui.theme.css"/>
     <link rel="stylesheet" href="_/css/utilidades.css"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Indie+Flower"/>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
     <script src="_/js/jquery-ui.js"></script>
@@ -41,22 +42,22 @@
           <div class="panel panel-success">
             <div class="panel-heading">Registrate</div>
             <div class="panel-body">
-              <form>
+              <form action="#" id="formularioRegistro">
                 <div class="form-group">
                   <label for="registro_nombre">Nombre</label>
-                  <input type="text" id="registro_nombre" class="form-control">
+                  <input type="text" name="Nombre" id="registro_nombre" class="form-control">
                 </div>
                 <div class="form-group">
                   <label for="registro_usuario">Usuario / Correo</label>
-                  <input type="email" id="registro_usuario" class="form-control">
+                  <input type="email" name="Email" id="registro_usuario" class="form-control">
                 </div>
                 <div class="form-group">
                   <label for="registro_password">Contraseña</label>
-                  <input type="password" id="registro_password" class="form-control">
+                  <input type="password" name="Pass" id="registro_password" class="form-control">
                 </div>
                 <div class="form-group">
                   <label for="registro_password2">Confirmar contraseña</label>
-                  <input type="password" id="registro_password2" class="form-control">
+                  <input type="password" name="Pass" id="registro_password2" class="form-control">
                 </div>
                 <button type="submit" class="btn btn-success">Registrar</button>
               </form>
