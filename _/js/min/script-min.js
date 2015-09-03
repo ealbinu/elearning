@@ -14,6 +14,8 @@ $('#formularioLogin').submit(function(e){
   e.preventDefault(); //Detiene acciones del formulario
   var usuario = $('#usuario').val();
   var pass = $('#password').val();
+  pass = CryptoJS.MD5(pass);
+  alert(pass);
   //Llamada a base de datos
   $.ajax({
     url:api+col+key+'&q={"Usuario":"'+usuario+'"}&fo=true',
