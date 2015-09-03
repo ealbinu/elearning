@@ -9,6 +9,23 @@ $(function(){
   var key = '?apiKey=cwqOL4LsQryNA-Joen-QCiequYWRGCae';
 
 
+
+$('#formularioLogin').submit(function(e){
+  e.preventDefault(); //Detiene acciones del formulario
+  var usuario = $('#usuario').val();
+  var pass = $('#password').val();
+  //Llamada a base de datos
+  $.ajax({
+    url:api+col+key+'&q={"Usuario":"'+usuario+'"}',
+    type: "GET",
+    contentType: 'application/json'
+  }).done(function(msg){
+    alert(msg);
+  });
+
+}); //Termina submit de formularioLogin
+
+
 $('#formularioRegistro').submit(function(e){
   e.preventDefault(); //Detener acciones del formulario
   var pass1 = $('#registro_password').val(); //Obtener valor
