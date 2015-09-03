@@ -14,8 +14,7 @@ $('#formularioLogin').submit(function(e){
   e.preventDefault(); //Detiene acciones del formulario
   var usuario = $('#usuario').val();
   var pass = $('#password').val();
-  pass = CryptoJS.MD5(pass);
-  alert(pass);
+  pass = CryptoJS.SHA1(pass).toString();
   //Llamada a base de datos
   $.ajax({
     url:api+col+key+'&q={"Usuario":"'+usuario+'"}&fo=true',
@@ -43,17 +42,19 @@ $('#formularioRegistro').submit(function(e){
   var pass2 = $('#registro_password2').val(); //Obtener valor
   if(pass1 == pass2){ //Comparar valores
     //REGISTRAR : Conectarse con base de datos y añadir item
+
     $.ajax({
       url: api+col+key,
       type: "POST",
       data : JSON.stringify({
         Nombre: $('#registro_nombre').val(),
         Usuario: $('#registro_usuario').val(),
-        Pass: CryptoJS.MD5( $('#registro_password').val() )
+        Pass: CryptoJS.SHA1( $('#registro_password').val() ).toString()
       }),
       contentType : "application/json"
     }).done(function(msg){
       console.log(msg);
+      alert('Usuario registrado');
     });
   } // Cierra comparación pass1==pass2
 }); //Cierra submit
