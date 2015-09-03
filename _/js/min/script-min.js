@@ -20,7 +20,16 @@ $('#formularioLogin').submit(function(e){
     type: "GET",
     contentType: 'application/json'
   }).done(function(msg){
-    alert(msg);
+    if(msg==null){
+      alert('Error en los datos');
+      return false;
+    }
+    if(pass == msg.Pass){
+      alert('Acceso correcto');
+      location.href = 'cursos.html';
+    } else {
+      alert('Error en los datos');
+    }
   });
 
 }); //Termina submit de formularioLogin
