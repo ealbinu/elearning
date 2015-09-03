@@ -16,7 +16,7 @@ $('#formularioLogin').submit(function(e){
   var pass = $('#password').val();
   //Llamada a base de datos
   $.ajax({
-    url:api+col+key+'&q={"Usuario":"'+usuario+'"}',
+    url:api+col+key+'&q={"Usuario":"'+usuario+'"}&fo=true',
     type: "GET",
     contentType: 'application/json'
   }).done(function(msg){
